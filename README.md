@@ -1,6 +1,8 @@
 # todo-vue
 
-> A Vue.js project
+> A Vue.js Todo App
+
+This is my first attempt to create a Vue app from scratch. 
 
 ## Build Setup
 

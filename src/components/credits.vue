@@ -1,7 +1,7 @@
 <template>
     <div class="credits">      
         <p>Powered by</p>
-        <img src="./assets/logo.png" class="logo">
+        <img src="../assets/logo.png" class="logo">
     </div>
 </template>
 
@@ -10,7 +10,10 @@
   name: 'credits'}
 </script>
 
-<style>
+<style lang="scss">
+
+$leon: 30px;
+
 p{
   margin-right: 5px;
   display: inline;
@@ -24,6 +27,7 @@ p{
 
 .logo{
   display: inline;
-  height: 30px;
+  height: $leon;
 }
+
 </style>

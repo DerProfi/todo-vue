@@ -103,7 +103,6 @@ button:hover {
 }
 
 .todo-edit{
-    font-size: 18px;
     margin-left: 12px;
     width: 100%;
     padding: 10px;

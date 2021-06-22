@@ -1,18 +1,22 @@
 <template>
   <div id="app" class="container">
-    <img src="./assets/logo.png" class="logo">
+    <img src="./assets/todo.png" alt="todo-symbol" class="symbol">
     <todo-list></todo-list>
+    <br>
+    <credits></credits>
   </div>
 </template>
 
 <script>
 import TodoList from './components/TodoList.vue'
+import credits from './components/credits.vue'
 
 
 export default {
   name: 'App',
   components: {
     TodoList,
+    credits,
   }
 }
 </script>
@@ -27,10 +31,11 @@ export default {
   margin: 0 auto;
 }
 
-.logo{
+.symbol{
   display: block;
-  margin: 20px auto;
   height: 75px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 #app {
